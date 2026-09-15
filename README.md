@@ -22,7 +22,7 @@ IntelliJ IDEA 2022.3.3(Ultimate Edition)
 注意：可能需先运行"version2\entity”，"version2\intent_detection",""version2\RAG"和""version2\Web_KGshow"四个代码文件；
 6）注意代码文件中所有涉及到数据集文件或模型文件本地保存地址的地方，需修改为实际地址，
 有的模型过大，可自行到huggingface上搜索下载；
-7）大语言模型选择的是智谱的glm-4-flash，API key可在其官网免费申请；
+7）大语言模型选择的是智谱的glm-4-flash，API key可在其官网申请；
 
 ## 应用截图
 
