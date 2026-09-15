@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bysjapp</string>
+
+        <string-array name="gender_array">
+            <item>男</item>
+            <item>女</item>
+        </string-array>
+
+</resources>

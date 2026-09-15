@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/selector_detection.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_family_selected" android:state_checked="true"/>
+    <item android:drawable="@drawable/ic_family"/>
+</selector>

@@ -1,0 +1,21 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_family_member_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入家庭成员账号或ID"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定账号"
+        android:layout_gravity="center"/>
+</LinearLayout>

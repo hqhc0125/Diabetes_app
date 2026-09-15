@@ -1,0 +1,73 @@
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/local.properties
+**/google-services.json
+**/keystore.properties
+*.keystore
+*.jks
+*.pem
+*.p12
+*.mobileprovision
+
+# Python artifacts and local environments
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# AI model weights, Hugging Face caches, and experiment output
+# Keep small configs/tokenizers and reproducible training scripts in Git.
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+**/.cache/
+**/runs/
+events.out.tfevents.*
+*.pkl
+
+# Local databases and vector-store data
+*.db
+*.sqlite
+*.sqlite3
+neo4j-data/
+chroma_db/
+
+# Android / Gradle build output
+.gradle/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+*.apk
+*.aab
+
+# Local runtime data and logs
+**/logs/
+*.log
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local/invalid placeholder files
+nul
+**/nul

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">  <!-- 背景颜色，可根据需要调整 -->
+
+    <!-- 欢迎图片 -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/ic_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/> <!-- 图片距离顶部的距离，可根据需要调整 -->
+
+    <!-- 文字: 您的血糖卫士 -->
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="血糖卫士欢迎您"
+        android:textColor="#00BFFF"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- 文字: 欢迎您 -->
+    <TextView
+        android:id="@+id/tv_welcome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_welcome"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="科普 | 对话 | 检测 | 社区 | 我的"
+        android:textColor="#828282"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- 添加第三行文字 -->
+    <TextView
+        android:id="@+id/tv_welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_welcome1"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="让我们开始吧"
+        android:textColor="#00BFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>

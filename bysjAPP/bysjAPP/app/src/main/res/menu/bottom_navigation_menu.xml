@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_education"
+        android:icon="@drawable/selector_education"
+        android:title="科普" />
+
+    <item
+        android:id="@+id/nav_consult"
+        android:icon="@drawable/selector_consult"
+        android:title="对话" />
+    <item
+        android:id="@+id/nav_detection"
+        android:icon="@drawable/selector_detection"
+        android:title="检测" />
+    <item
+        android:id="@+id/nav_community"
+        android:icon="@drawable/selector_community"
+        android:title="社区" />
+    <item
+        android:id="@+id/nav_family"
+        android:icon="@drawable/selector_family"
+        android:title="我的" />
+</menu>

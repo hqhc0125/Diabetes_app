@@ -1,0 +1,22 @@
+<resources>
+    <!-- BottomNavigationView 的自定义样式 -->
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <!-- 禁用图标 tint，保证图标采用选择器中定义的 PNG 图片 -->
+        <item name="itemIconTint">@null</item>
+        <!-- 使用自定义的文字外观样式 -->
+        <item name="itemTextAppearanceActive">@style/BottomNavigationViewActiveText</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavigationViewInactiveText</item>
+    </style>
+
+    <!-- 选中时的文字外观 -->
+    <style name="BottomNavigationViewActiveText">
+        <item name="android:textColor">@color/selectedColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 未选中时的文字外观 -->
+    <style name="BottomNavigationViewInactiveText">
+        <item name="android:textColor">@color/defaultColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>
