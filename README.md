@@ -39,3 +39,11 @@ IntelliJ IDEA 2022.3.3(Ultimate Edition)
   <img src="docs/images/glucose-monitoring.png" alt="血糖检测页" width="180" />
 </p>
 
+<p align="center">
+  <img src="docs/images/glucose-history.png" alt="检测历史页" width="180" />
+  <img src="docs/images/community.png" alt="社区评论页" width="180" />
+  <img src="docs/images/profile.png" alt="个人中心页" width="180" />
+  <img src="docs/images/identity-selection.png" alt="身份选择页" width="180" />
+  <img src="docs/images/family-connection.png" alt="家人连接页" width="180" />
+</p>
+
