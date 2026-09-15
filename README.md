@@ -12,8 +12,8 @@ IntelliJ IDEA 2022.3.3(Ultimate Edition)
 4）深度学习框架：Pytorch
 
 3、运行方法：
-1）解压“bysjAPP”，并用Android Studio打开，直接运行，APP账号：1，密码：1；
-2）解压“后端代码”，并用pycharm打开，需先配置必要的库；
+1）Android Studio打开“bysjAPP”，直接运行，APP账号：1，密码：1；
+2）VScode打开back_code，需先配置必要的库；
 3）知识图谱：运行“version1\KG”，即可构建知识图谱，终端打开neo4j即可查看知识图谱，注意端口和账号密码；
 4）意图检测：运行"version1\intent_data_process"对数据进行预处理，之后可分别运行"version1\intent_detection_textCNN",
 "version1\intent_detection_Bi-LSTM","version1\intent_detection_Bi-LSTM_with_attention",
