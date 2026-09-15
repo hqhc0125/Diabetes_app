@@ -1,17 +1,7 @@
 本项目的开发环境如下：
 1、操作系统：Windows 10
 
-2、开发平台/环境版本：
-1）Android studio：
-Android Studio Iguana | 2023.2.1
-Build #AI-232.10227.8.2321.11479570, built on February 22, 2024
-Runtime version: 17.0.9+0--11185874 amd64
-IntelliJ IDEA 2022.3.3(Ultimate Edition)
-2）Pycharm 2023.1(Community Edition)
-3）Neo4j：neo4j-community-4.4.32
-4）深度学习框架：Pytorch
-
-3、运行方法：
+2、运行方法：
 1）Android Studio打开“bysjAPP”，直接运行，APP账号：1，密码：1；
 2）VScode打开back_code，需先配置必要的库；
 3）知识图谱：运行“version1\KG”，即可构建知识图谱，终端打开neo4j即可查看知识图谱，注意端口和账号密码；
