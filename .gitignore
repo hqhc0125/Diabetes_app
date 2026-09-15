@@ -1,4 +1,4 @@
-# Secrets and machine-specific configuration
+# 密钥与本机专属配置
 .env
 .env.*
 !.env.example
@@ -14,7 +14,7 @@
 *.p12
 *.mobileprovision
 
-# Python artifacts and local environments
+# Python 产物与本地虚拟环境
 __pycache__/
 **/__pycache__/
 *.py[cod]
@@ -28,8 +28,8 @@ env/
 .pytest_cache/
 .mypy_cache/
 
-# AI model weights, Hugging Face caches, and experiment output
-# Keep small configs/tokenizers and reproducible training scripts in Git.
+# AI 模型权重、Hugging Face 缓存与实验产物
+# 保留体积较小的配置、分词器和可复现的训练脚本。
 *.bin
 *.safetensors
 *.h5
@@ -42,14 +42,14 @@ env/
 events.out.tfevents.*
 *.pkl
 
-# Local databases and vector-store data
+# 本地数据库与向量库数据
 *.db
 *.sqlite
 *.sqlite3
 neo4j-data/
 chroma_db/
 
-# Android / Gradle build output
+# Android / Gradle 构建产物
 .gradle/
 **/build/
 **/.cxx/
@@ -57,17 +57,17 @@ chroma_db/
 *.apk
 *.aab
 
-# Local runtime data and logs
+# 本地运行数据与日志
 **/logs/
 *.log
 
-# IDE and OS files
+# IDE 与操作系统文件
 .idea/
 *.iml
 .vscode/
 .DS_Store
 Thumbs.db
 
-# Local/invalid placeholder files
+# 本地/无效占位文件
 nul
 **/nul
