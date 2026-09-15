@@ -20,10 +20,9 @@ IntelliJ IDEA 2022.3.3(Ultimate Edition)
 "version2\fine-turning\intent_detection_electra",四个文件，进行四个深度学习模型训练，比较意图检测的问题分类性能；
 5）运行"version2\app"同时保持运行状态，即可保证后端处于打开状态，
 注意：可能需先运行"version2\entity”，"version2\intent_detection",""version2\RAG"和""version2\Web_KGshow"四个代码文件；
-6）后端运行需访问huggingface，访问较慢，可想办法解决；
-7）注意代码文件中所有涉及到数据集文件或模型文件本地保存地址的地方，需修改为实际地址，
+6）注意代码文件中所有涉及到数据集文件或模型文件本地保存地址的地方，需修改为实际地址，
 有的模型过大，可自行到huggingface上搜索下载；
-8）大语言模型选择的是智谱的glm-4-flash，API key可在其官网免费申请；
+7）大语言模型选择的是智谱的glm-4-flash，API key可在其官网免费申请；
 
 ## 应用截图
 
