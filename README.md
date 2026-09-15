@@ -25,3 +25,18 @@ IntelliJ IDEA 2022.3.3(Ultimate Edition)
 有的模型过大，可自行到huggingface上搜索下载；
 8）大语言模型选择的是智谱的glm-4-flash，API key可在其官网免费申请；
 
+## 应用截图
+
+<p align="center">
+  <img src="docs/images/welcome.png" alt="欢迎页" width="180" />
+  <img src="docs/images/login.png" alt="登录页" width="180" />
+  <img src="docs/images/register.png" alt="注册页" width="180" />
+</p>
+
+<p align="center">
+  <img src="docs/images/health-education.png" alt="健康科普页" width="180" />
+  <img src="docs/images/qa-overview.png" alt="智能问答页" width="180" />
+  <img src="docs/images/qa-answer.png" alt="问答详情页" width="180" />
+  <img src="docs/images/glucose-monitoring.png" alt="血糖检测页" width="180" />
+</p>
+
